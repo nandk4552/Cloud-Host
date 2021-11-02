@@ -136,6 +136,9 @@ pre, code {
     animation: slideInFromRight 1s ease-in;
 
 }
+.showcase-form .btn {
+    margin: -1rem 0 !important;
+}
 .showcase-form h2{
     font-size: 3rem;
 }
@@ -467,7 +470,7 @@ pre, code {
     }
   
     .showcase {
-      height: auto; 
+      height: 100%; 
     }
   
     .showcase-txt {
@@ -512,6 +515,9 @@ pre, code {
     }
     .navbar {
       height: 100%;
+    }
+    .navbar .container{
+        overflow-x: hidden;
     }
   
     .navbar .flex {
